@@ -1,54 +1,3 @@
-// export default function Hero() {
-//   return (
-//     <main className="bg-white h-full text-center w-full">
-//       <section className="bg-[linear-gradient(to_right_top,#fd267a,#ff6036)] min-h-screen w-full flex flex-col items-center justify-center">
-//         <div className="flex flex-col md:flex-row justify-center w-full mx-auto">
-//           {/* Left Section (Logo and Text) */}
-//           <div className="flex items-center flex-col justify-center px-4 md:w-1/2">
-//             <a href="/" className="text-white">
-//               <svg aria-hidden="true" viewBox="0 0 519 123" className="w-36 md:w-48">
-//                 <title>Tinder</title>
-//                 <g fillRule="evenodd" fill="none">
-//                   {/* Logo paths */}
-//                 </g>
-//               </svg>
-//               <span className="sr-only">Tinder Home</span>
-//             </a>
-
-//             <h1 className="text-white text-xl md:text-3xl font-bold mt-4">
-//               Meet New People Today
-//             </h1>
-
-//             <a
-//               className="bg-transparent cursor-pointer inline-block relative border-2 border-white rounded-full mt-4 px-6 py-3"
-//               href="https://open.tinder.com/9K8a/ddbsovjl"
-//             >
-//               <div className="text-white text-lg font-bold">
-//                 Download Tinder
-//               </div>
-//             </a>
-//           </div>
-
-//           {/* Right Section (Image) */}
-//           <div className="mt-8 md:mt-0  h-full w-full md:w-1/2 flex justify-center items-center relative">
-//             <div className="relative max-w-[250px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[350px] mx-auto">
-//               <img
-//                 className="pt-28 align-middle rounded "
-//                 src="https://tinder.com/static/build/build-ssg/static/sabrina-ef55421cc9ee29e9003744d03f748126.webp"
-//                 alt="Tinder"
-//               />
-//               <img
-//                 className="py-32  absolute inset-0 z-0 scale-110 "
-//                 src="https://tinder.com/static/build/build-ssg/static/phone-frame-4b7178071dd47f185c13d14c95f05b24.webp"
-//                 alt="Phone Frame"
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-//     </main>
-//   );
-// }
 
 import Image from 'next/image';
 
@@ -105,18 +54,18 @@ export default function Hero() {
                     alt="spark"
                     width={320}
                     height={480}
-                    priority
+                    // priority
                   />
                 </div>
                 <div className="absolute scale-[1.05] md:scale-110 inset-0">
-                  <div className="react-aspect-ratio-placeholder">
+                  <div className="">
                     <Image
                       className="align-middle"
                       src="/assets/images/image2.png"
                       alt="Phone Frame"
                       width={320}
                       height={480}
-                      priority
+                      // priority
                     />
                   </div>
                 </div>
