@@ -48,28 +48,28 @@ const Navbar = () => {
         {/* Right Section */}
         <div className="hidden md:flex items-center space-x-4 md:space-x-6 lg:space-x-8 pt-1">
           {/* <a href="#language" className="text-white hover:text-gray-400 text-xl font-bold">Language</a> */}
-          <button className="bg-white text-black py-2 px-4 rounded-full hover:bg-gray-100">
+          {/* <button className="bg-white text-black py-2 px-4 rounded-full hover:bg-gray-100">
             Log in
-          </button>
+          </button> */}
         </div>
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="md:hidden bg-black text-white">
-          <div className="flex flex-col space-y-4 p-4">
+          <div className="flex flex-col space-y-4 p-4"> */}
             {/* <a href="#products" className="hover:text-red-800 text-lg font-bold">Products</a>
             <a href="#learn" className="hover:text-red-800 font-bold text-lg">Learn</a>
             <a href="#safety" className="hover:text-red-800 font-bold text-lg">Safety</a>
             <a href="#support" className="hover:text-red-800 font-bold text-lg">Support</a>
             <a href="#download" className="hover:text-red-800 font-bold text-lg">Download</a>
             <a href="#language" className="text-white hover:text-gray-400 text-xl font-bold">Language</a> */}
-            <button className="bg-white text-black py-2 px-4 rounded-full hover:bg-gray-100">
+            {/* <button className="bg-white text-black py-2 px-4 rounded-full hover:bg-gray-100">
               Log in
-            </button>
-          </div>
+            </button> */}
+          {/* </div>
         </div>
-      )}
+      )} */}
     </nav>
   );
 };

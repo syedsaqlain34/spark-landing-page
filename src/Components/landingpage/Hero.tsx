@@ -50,6 +50,8 @@
 //   );
 // }
 
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <main className="bg-white h-full isolate text-center w-full [scrollbar-width:none]">
@@ -76,7 +78,7 @@ export default function Hero() {
 
             <a
               className="min-h-12 touch-manipulation text-[#21262e] no-underline bg-transparent cursor-pointer inline-block relative border-0"
-              href="https://open.tinder.com/9K8a/ddbsovjl"
+              href=""
             >
               <div className="bg-transparent block h-full min-h-12 min-w-12 opacity-0 absolute -translate-x-2/4 -translate-y-2/4 w-full left-2/4 top-2/4"></div>
               <div className="block relative">
@@ -97,20 +99,24 @@ export default function Hero() {
             <div className="flex flex-col justify-center mx-auto relative max-w-[250px] sm:max-w-[300px] md:max-w-[320px] lg:max-w-[350px] translate-y-[80px] md:translate-y-[120px]">
               <div className="relative">
                 <div className="translate-y-[-24px] md:translate-y-[-34px] scale-90 md:scale-95">
-                  <img
+                  <Image
                     className="align-middle"
-                    src="https://tinder.com/static/build/build-ssg/static/sabrina-ef55421cc9ee29e9003744d03f748126.webp"
-                    alt="Tinder"
-                    loading="lazy"
+                    src="/assets/images/image1.png"
+                    alt="spark"
+                    width={320}
+                    height={480}
+                    priority
                   />
                 </div>
                 <div className="absolute scale-[1.05] md:scale-110 inset-0">
                   <div className="react-aspect-ratio-placeholder">
-                    <img
+                    <Image
                       className="align-middle"
-                      src="https://tinder.com/static/build/build-ssg/static/phone-frame-4b7178071dd47f185c13d14c95f05b24.webp"
+                      src="/assets/images/image2.png"
                       alt="Phone Frame"
-                      loading="lazy"
+                      width={320}
+                      height={480}
+                      priority
                     />
                   </div>
                 </div>
@@ -122,3 +128,4 @@ export default function Hero() {
     </main>
   );
 }
+

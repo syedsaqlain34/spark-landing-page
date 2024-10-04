@@ -11,43 +11,43 @@ export default function PlatformSection() {
 
         {/* Description */}
         <p className="text-gray-600 text-base sm:text-lg lg:text-xl leading-6 lg:leading-7 my-4 lg:my-6">
-          Tinder is currently available on{" "}
+          spark is currently available on{" "}
           <a
-            href="https://go.tinder.com/web-ios-download"
+            href=""
             className="font-semibold text-[#21262e] hover:underline"
           >
             iOS
           </a>
           ,{" "}
           <a
-            href="https://go.tinder.com/web-android-download"
+            href=""
             className="font-semibold text-[#21262e] hover:underline"
           >
             Android
           </a>
           , and{" "}
           <a
-            href="https://go.tinder.com/web-hms-download"
+            href=""
             className="font-semibold text-[#21262e] hover:underline"
           >
             HMS
           </a>{" "}
           devices. Along with our mobile apps, you can visit{" "}
           <a
-            href="https://tinder.com"
+            href=""
             className="font-semibold text-[#21262e] hover:underline"
           >
             Tinder.com
           </a>{" "}
-          to use Tinder for Web.
+          to use spark for Web.
         </p>
 
         {/* Tinder Lite */}
         <p className="text-gray-600 text-base sm:text-lg lg:text-xl leading-6 lg:leading-7 my-4 lg:my-6">
           We also offer a lightweight version of Tinder you can take anywhere
-          and everywhere - download Tinder Lite from the{" "}
+          and everywhere - download spark Lite from the{" "}
           <a
-            href="https://open.tinder.com/9K8a/2462a775"
+            href=""
             className="font-semibold text-[#21262e] hover:underline"
           >
             Google Play store
@@ -57,7 +57,7 @@ export default function PlatformSection() {
 
         {/* Supported Versions */}
         <p className="text-gray-600 text-base sm:text-lg lg:text-xl leading-6 lg:leading-7 my-4 lg:my-6">
-          Tinder currently supports iOS 15.0 and up, Android 7.0 and up, and the
+          Spark currently supports iOS 15.0 and up, Android 7.0 and up, and the
           latest versions of all major web browsers (Chrome, Firefox, Safari,
           Edge, etc.).
         </p>
