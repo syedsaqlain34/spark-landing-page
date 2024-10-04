@@ -5,7 +5,7 @@ export default function PlatformSection() {
 
       <div className="text-left w-full mx-auto  px-4">
         {/* Title */}
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-normal leading-8 lg:leading-9 mt-6 mb-4 lg:mb-6">
+        <h2 className="text-2xl md:text-xl sm:text-lg lg:text-3xl font-bold tracking-normal leading-8 lg:leading-9 mt-6 mb-4 lg:mb-6">
           Supported Platforms and Devices
         </h2>
 
