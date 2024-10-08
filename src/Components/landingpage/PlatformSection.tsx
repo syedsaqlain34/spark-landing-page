@@ -37,7 +37,7 @@ export default function PlatformSection() {
             href=""
             className="font-semibold text-[#21262e] hover:underline"
           >
-            Tinder.com
+            Spark.com
           </a>{" "}
           to use spark for Web.
         </p>
