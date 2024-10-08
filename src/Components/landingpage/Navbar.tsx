@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        {/* <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-black focus:outline-none"
@@ -41,22 +41,22 @@ const Navbar = () => {
               ></path>
             </svg>
           </button>
-        </div>
+        </div> */}
 
         {/* Right Section */}
-        <div className="hidden md:flex items-center space-x-4 md:space-x-6 lg:space-x-8 pt-1">
+        {/* <div className="hidden md:flex items-center space-x-4 md:space-x-6 lg:space-x-8 pt-1"> */}
           {/* Your buttons or links here */}
         </div>
-      </div>
+      {/* </div> */}
 
       {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-gradient-to-r from-[#aaf0d1] to-[#79cae8] text-black">
-          <div className="flex flex-col space-y-4 p-4">
+      {/* {isOpen && ( */}
+        {/* <div className="md:hidden bg-gradient-to-r from-[#aaf0d1] to-[#79cae8] text-black"> */}
+          {/* <div className="flex flex-col space-y-4 p-4"> */}
             {/* Your mobile menu links here */}
-          </div>
-        </div>
-      )}
+          {/* </div> */}
+        {/* </div> */}
+      {/* )} */}
     </nav>
   );
 };
